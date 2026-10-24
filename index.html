@@ -1,52 +1,39 @@
 <!DOCTYPE html>
 <html lang="ar" dir="rtl">
 <head>
-<meta charset="UTF-8">
-<meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>وسيم عقيل - شاعر سوري</title>
-<link href="https://fonts.googleapis.com/css2?family=Amiri:wght@400;700&family=Reem+Kufi:wght@500;700&display=swap" rel="stylesheet">
+<meta charset="UTF-8"><meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>وسيم عقيل - الأعمال الكاملة</title>
+<link href="https://fonts.googleapis.com/css2?family=Amiri:wght@400;700&family=Reem+Kufi:wght@700&display=swap" rel="stylesheet">
 <style>
-body{margin:0;background:#0a1220;color:#e8eef6;font-family:'Amiri',serif;}
-.profile{min-height:68vh;display:flex;flex-direction:column;align-items:center;justify-content:center;text-align:center;padding:65px 20px;background:radial-gradient(ellipse at center,#1c3354 0%,#0a1220 80%);}
-.avatar{width:170px;height:170px;border-radius:50%;overflow:hidden;border:3px solid rgba(255,255,255,.18);}
-.avatar img{width:100%;height:100%;object-fit:cover;}
-.name{margin-top:22px;font-family:'Reem Kufi';font-size:2.3rem;}
-.bio{max-width:650px;opacity:.82;margin-top:16px;line-height:2;}
-.diwan-section{max-width:840px;margin:0 auto;padding:42px 22px 20px;border-top:1px solid rgba(255,255,255,.06);}
-.diwan-header{display:flex;gap:24px;align-items:center;background:rgba(255,255,255,.045);border:1px solid rgba(255,255,255,.09);border-radius:20px;padding:22px;}
-.diwan-cover{width:148px;flex-shrink:0;border-radius:12px;overflow:hidden;}
-.diwan-cover img{width:100%;display:block;}
-.card{display:flex;align-items:center;gap:16px;padding:16px 18px;background:rgba(255,255,255,.05);border:1px solid rgba(255,255,255,.08);border-radius:14px;text-decoration:none;color:inherit;}
+body{background:#0a1931;color:#e8d5a3;font-family:'Amiri',serif;margin:0;min-height:100vh;display:flex;justify-content:center;align-items:center;padding:20px}
+.container{max-width:1000px;width:100%;text-align:center}
+h1{font-family:'Reem Kufi';color:#d4af37;font-size:52px;margin-bottom:10px}
+.subtitle{opacity:0.8;font-size:20px;margin-bottom:30px}
+.books{display:grid;grid-template-columns:1fr 1fr;gap:30px}
+@media(max-width:700px){.books{grid-template-columns:1fr}}
+.book{border:2px solid #d4af37;border-radius:20px;overflow:hidden;background:rgba(212,175,55,0.07);text-decoration:none;color:#e8d5a3;transition:0.4s;display:block}
+.book:hover{transform:translateY(-10px);box-shadow:0 15px 40px rgba(212,175,55,0.3)}
+.book img{width:100%;height:480px;object-fit:cover}
+.book .info{padding:20px}
+.book h2{font-family:'Reem Kufi';color:#d4af37;font-size:26px;margin:0 0 5px}
+.book p{opacity:0.8;margin:0}
 </style>
 </head>
 <body>
-
-<div class="profile">
-<div class="avatar"><img src="IMG_0950.jpeg" alt="وسيم عقيل"></div>
-<div class="name">وسيم عقيل</div>
-<div class="bio">شاعر وكاتب وروائي سوري من محافظة درعا مدينة الشيخ مسكين … أحببت الشعر منذ نعومة أظفاري وآمنت دائما بأن الحب لا يتجلى إلا شعراً ومن هذا الإيمان أحببت كل شيء حولي بالشعر وكتبت كل ذكرياتي شعراً</div>
+<div class="container">
+<h1>وسيم عقيل</h1>
+<div class="subtitle">الأعمال الكاملة</div>
+<div class="books">
+<a href="diwan.html" class="book">
+<img src="cover_yamama.png">
+<div class="info"><h2>عندما تبكي اليمامة</h2><p>ديوان شعري</p></div>
+</a>
+<a href="kharbashaat.html" class="book">
+<img src="cover_kharbashaat.png">
+<div class="info"><h2>خربشات على جدران الذاكرة</h2><p>مجموعة نصوص أدبية</p></div>
+</a>
 </div>
-
-<div class="diwan-section">
-<div class="diwan-header">
-<div class="diwan-cover"><img src="cover.jpg"></div>
-<div><div style="font-family:'Reem Kufi';font-size:1.65rem;">عندما تبكي اليمامة</div><div style="opacity:.6;">— آخر قصائد سلمى —</div></div>
-</div>
-<div style="display:grid;gap:14px;margin-top:24px;">
-<a class="card" href="alam.html">١ - ألم <span style="margin-right:8px;background:rgba(255,215,0,.15);padding:2px 8px;border-radius:20px;font-size:.75rem;color:#ffd86a;">جديد</span></a>
-<a class="card" href="mojarat.html">٢ - مجاراة - شوقين <span style="margin-right:8px;background:rgba(255,215,0,.15);padding:2px 8px;border-radius:20px;font-size:.75rem;color:#ffd86a;">جديد</span></a>
-<a class="card" href="baraan-al-wudd.html">٣ - براء الود</a>
-<a class="card" href="hawwa.html">٤ - حواء</a>
-<a class="card" href="jorh-al-nay.html">٥ - جرح الناي</a>
-<a class="card" href="layl-sababa.html">٦ - ليل الصبابة</a>
-<a class="card" href="mashlool-amani.html">٧ - مشلول الأماني</a>
-<a class="card" href="qul-li-lima.html">٨ - قل لي لما</a>
-<a class="card" href="shazrah.html">- شذره</a> <a class="card" href="jalsa-1.html">- جلسة النطق بالحكم 1</a>
-<a class="card" href="atab.html">- عتاب - أنثى الكتاب</a>
-<a class="card" href="al-yawm-eid.html">- اليوم عيد</a>
-<a class="card" href="salma.html">- سلمى</a>
-<a class="card" href="hulm.html">- حلم</a>
-</div>
+<p style="margin-top:40px;opacity:0.5">تصميم: سلمى اليمامة 💛</p>
 </div>
 </body>
 </html>
