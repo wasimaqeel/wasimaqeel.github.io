@@ -1,30 +1,57 @@
 <!DOCTYPE html>
 <html lang="ar" dir="rtl">
-<head><meta charset="UTF-8"><meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>وسيم عقيل - الموقع الرسمي</title>
-<link href="https://fonts.googleapis.com/css2?family=Amiri:wght@400;700&family=Reem+Kufi:wght@700&display=swap" rel="stylesheet">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>مكتبة وسيم عقيل</title>
+<link href="https://fonts.googleapis.com/css2?family=Reem+Kufi:wght@400;700&family=Amiri:wght@400;700&display=swap" rel="stylesheet">
 <style>
 *{margin:0;padding:0;box-sizing:border-box}
-body{background:#0a1931;color:#e8d5a3;font-family:'Amiri',serif;text-align:center}
-.container{max-width:1100px;margin:0 auto;padding:30px 20px}
-.profile-img{width:190px;height:190px;border-radius:50%;object-fit:cover;border:3px solid #d4af37;box-shadow:0 0 30px rgba(212,175,55,0.4);margin-bottom:20px}
-h1{font-family:'Reem Kufi';color:#d4af37;font-size:54px}
-.bio{max-width:700px;margin:15px auto 35px;line-height:1.9;background:rgba(255,255,255,0.04);padding:20px;border-radius:16px;font-size:19px}
-.books{display:grid;grid-template-columns:1fr 1fr;gap:30px}
-@media(max-width:750px){.books{grid-template-columns:1fr}}
-.book{border:2px solid #d4af37;border-radius:20px;overflow:hidden;background:rgba(212,175,55,0.07);text-decoration:none;color:#e8d5a3;display:block;transition:0.4s}
-.book:hover{transform:translateY(-8px);box-shadow:0 20px 50px rgba(212,175,55,0.3)}
-.book img{width:100%;height:500px;object-fit:cover}
-.book .info{padding:20px}
-.book .info h3{font-family:'Reem Kufi';color:#d4af37;font-size:26px}
-</style></head>
-<body><div class="container">
-<img src="Wassili.jpg" class="profile-img" onerror="this.src='cover.jpg'">
-<h1>وسيم عقيل</h1>
-<div class="bio">شاعر وكاتب سوري، من محافظة درعا مدينة الشيخ مسكين ،،،كتبت الشعر منذ نعومة اضفاري وآمنت ان الحب لا يتجلى إلا شعرا ،وهنا في المهجر ومن رحم الغربة ولدت اجمل كلماتي .</div>
-<div class="books">
-<a href="diwan.html" class="book"><img src="cover.jpg"><div class="info"><h3>عندما تبكي اليمامة</h3><p>ديوان شعري</p></div></a>
-<a href="kharbashaat.html" class="book"><img src="cover_kharbashaat.jpg"><div class="info"><h3>خربشات على جدران الذاكرة</h3><p>مجموعة نصوص أدبية</p></div></a>
-<a href="siyasi.html" class="book"><img src="siyasi-cover.jpg"><div class="info"><h3>قصائد ونصوص سياسية</h3></div></a>
-<a href="ana-wal-ankaboot/1.html" class="book"><img src="ana-wal-ankaboot/cover.jpg"><div class="info"><h3>أنا والعنكبوت</h3></div></a>
-</div></div></body></html>
+body{background:#0a1931;color:#e8d5a3;font-family:'Amiri',serif;min-height:100vh}
+.hero{text-align:center;padding:40px 20px 20px}
+.hero img{width:130px;height:130px;border-radius:50%;border:3px solid #d4af37;object-fit:cover}
+.hero h1{font-family:'Reem Kufi';color:#d4af37;font-size:34px;margin:15px 0 5px}
+.hero p{color:#8a9bb8}
+.library{max-width:800px;margin:0 auto;padding:20px;display:grid;grid-template-columns:1fr 1fr;gap:18px}
+.book{background:rgba(255,255,255,0.05);border:1.5px solid rgba(212,175,55,0.4);border-radius:16px;padding:20px;text-align:center;transition:0.3s}
+.book:hover{border-color:#d4af37;transform:translateY(-3px)}
+.book h3{font-family:'Reem Kufi';color:#d4af37;margin:12px 0 6px}
+.book p{color:#8a9bb8;font-size:14px;margin-bottom:12px}
+.book a{display:inline-block;padding:8px 18px;border:1.5px solid #d4af37;border-radius:8px;color:#d4af37;text-decoration:none}
+.book a:hover{background:#d4af37;color:#0a1931}
+</style>
+</head>
+<body>
+<div class="hero">
+<img src="wassil11.jpg" onerror="this.src='https://via.placeholder.com/130'">
+<h1>مكتبة وسيم عقيل</h1>
+<p>كاتب وروائي</p>
+</div>
+
+<div class="library">
+<div class="book">
+<h3>أنا والعنكبوت</h3>
+<p>رواية - 10 فصول</p>
+<a href="ana-wal-ankaboot/index.html">اقرأ الآن</a>
+</div>
+
+<div class="book">
+<h3>خربشات</h3>
+<p>نصوص أدبية</p>
+<a href="kharbashat/index.html">اقرأ الآن</a>
+</div>
+
+<div class="book">
+<h3>قصائد سياسية</h3>
+<p>ديوان شعر</p>
+<a href="qasaed-siyasiya/index.html">اقرأ الآن</a>
+</div>
+
+<div class="book">
+<h3>مقالات</h3>
+<p>قريباً</p>
+<a style="opacity:0.5">قريباً</a>
+</div>
+</div>
+</body>
+</html>
