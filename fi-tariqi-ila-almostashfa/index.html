@@ -7,19 +7,18 @@
 <link href="https://fonts.googleapis.com/css2?family=Reem+Kufi:wght@400;700&family=Amiri:wght@400;700&display=swap" rel="stylesheet">
 <style>
 *{margin:0;padding:0;box-sizing:border-box}
-body{background:#0a1931;color:#e8d5a3;font-family:'Reem Kufi',sans-serif;min-height:100vh}
-.hero{text-align:center;padding:40px 20px 20px;position:relative}
-.hero-bg{position:absolute;top:0;left:0;right:0;height:140px;background:linear-gradient(rgba(10,25,49,0.3), #0a1931), url('https://images.unsplash.com/photo-1519681393784-d120267933ba?w=800') center/cover;opacity:0.4}
-.hero h2{position:relative;color:#d4af37;font-size:16px;font-weight:400;letter-spacing:2px}
+body{background:#0a1931;color:#e8d5a3;font-family:'Amiri',serif;min-height:100vh}
+.hero{text-align:center;padding:60px 20px 20px;position:relative;overflow:hidden;background:#0a1931}
+.hero-bg{position:absolute;top:0;left:0;width:100%;height:100%;background:linear-gradient(rgba(10,25,49,0.4), #0a1931), url('../cover.jpg');background-size:cover;background-position:center;opacity:0.5}
+.hero h2{position:relative;color:#d4af37;font-size:16px;font-weight:400;letter-spacing:2px;z-index:1}
 .title{text-align:center;padding:20px}
-.title h1{color:#d4af37;font-size:42px;line-height:1.3;font-weight:700}
+.title h1{color:#d4af37;font-size:42px;line-height:1.3;font-family:'Reem Kufi';font-weight:700}
 .title h3{color:#8a9bb8;font-size:16px;font-weight:400;margin-top:15px}
 .divider{width:80px;height:2px;background:linear-gradient(90deg, transparent, #d4af37, transparent);margin:20px auto;opacity:0.6}
 .container{max-width:520px;margin:0 auto;padding:20px 20px 40px}
-.chapter{display:block;width:100%;padding:18px 20px;margin-bottom:14px;background:rgba(255,255,255,0.06);border:1px solid rgba(212,175,55,0.15);border-radius:14px;color:#e8d5a3;text-decoration:none;font-size:18px;font-weight:700;text-align:center;transition:0.3s}
-.chapter:hover{background:rgba(212,175,55,0.12);border-color:#d4af37;transform:translateY(-2px)}
-.chapter.active{border-color:#d4af37;background:rgba(212,175,55,0.1);box-shadow:0 0 15px rgba(212,175,55,0.2)}
-.back-btn{display:block;width:fit-content;margin:30px auto 0;padding:10px 28px;border:1px solid rgba(212,175,55,0.3);border-radius:30px;color:#d4af37;text-decoration:none;font-size:14px}
+.chapter{display:block;width:100%;padding:18px 20px;margin-bottom:14px;background:rgba(212,175,55,0.06);border:1px solid rgba(212,175,55,0.15);border-radius:14px;color:#e8d5a3;text-decoration:none;font-size:18px;font-weight:700;text-align:center;transition:0.3s}
+.chapter:hover{background:rgba(212,175,55,0.15);border-color:#d4af37;transform:translateY(-2px)}
+.back-btn{display:block;width:fit-content;margin:30px auto 0;padding:10px 28px;border:1px solid #d4af37;border-radius:25px;color:#d4af37;text-decoration:none}
 </style>
 </head>
 <body>
@@ -28,19 +27,19 @@ body{background:#0a1931;color:#e8d5a3;font-family:'Reem Kufi',sans-serif;min-hei
 <h2>وسيم عقيل</h2>
 </div>
 <div class="title">
-<h1>في طريقي إلى<br>المستشفى</h1>
-<h3>رواية - وسيم عقيل</h3>
+<h1>في طريقي إلى المستشفى</h1>
+<h3>رواية - 7 فصول</h3>
 <div class="divider"></div>
 </div>
 <div class="container">
-<a class="chapter" href="fasl-1.html">الفصل الأول</a>
-<a class="chapter" href="fasl-2.html">الفصل الثاني</a>
-<a class="chapter" href="fasl-3.html">الفصل الثالث</a>
-<a class="chapter" href="fasl-4.html">الفصل الرابع</a>
-<a class="chapter" href="fasl-5.html">الفصل الخامس</a>
-<a class="chapter" href="fasl-6.html">الفصل السادس</a>
-<a class="chapter active" href="fasl-7.html">الفصل السابع - الخاتمة</a>
-<a class="back-btn" href="https://wasimaqeel.github.io">→ العودة للرئيسية</a>
+<a href="fasl-1.html" class="chapter">الفصل الأول</a>
+<a href="fasl-2.html" class="chapter">الفصل الثاني</a>
+<a href="fasl-3.html" class="chapter">الفصل الثالث</a>
+<a href="fasl-4.html" class="chapter">الفصل الرابع</a>
+<a href="fasl-5.html" class="chapter">الفصل الخامس</a>
+<a href="fasl-6.html" class="chapter">الفصل السادس</a>
+<a href="fasl-7.html" class="chapter">الفصل السابع - الأخير</a>
+<a href="../index.html" class="back-btn">← العودة للمكتبة</a>
 </div>
 </body>
 </html>
