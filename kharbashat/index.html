@@ -3,43 +3,37 @@
 <head>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>خربشات على جدران الذاكرة - وسيم عقيل</title>
-<link href="https://fonts.googleapis.com/css2?family=Amiri:wght@400;700&family=Reem+Kufi:wght@400;700&display=swap" rel="stylesheet">
+<title>خربشات - وسيم عقيل</title>
+<link href="https://fonts.googleapis.com/css2?family=Reem+Kufi:wght@700&family=Amiri:wght@400;700&display=swap" rel="stylesheet">
 <style>
-body{background:#0a1931;color:#e8d5a3;font-family:'Amiri',serif;margin:0}
-.header{text-align:center;padding:60px 20px 30px}
-.header h1{font-family:'Reem Kufi';color:#d4af37;font-size:42px;margin:0}
-.header p{color:#e8d5a3;opacity:0.7;margin-top:10px}
-.line{width:80px;height:2px;background:#d4af37;margin:20px auto;opacity:0.5}
-.container{max-width:700px;margin:0 auto;padding:0 20px 60px}
-.card{display:block;text-decoration:none;background:rgba(212,175,55,0.05);border:1px solid rgba(212,175,55,0.2);border-radius:16px;padding:22px 24px;margin:16px 0;transition:0.3s}
-.card:hover{background:rgba(212,175,55,0.1);border-color:#d4af37;transform:translateY(-2px)}
-.card h3{font-family:'Reem Kufi';color:#d4af37;margin:0 0 6px;font-size:20px}
-.card p{color:#e8d5a3;opacity:0.6;margin:0;font-size:14px}
-.back{text-align:center;margin-top:40px}
-.back a{color:#d4af37;text-decoration:none;border:1px solid rgba(212,175,55,0.3);padding:10px 24px;border-radius:24px}
+*{margin:0;padding:0;box-sizing:border-box}
+body{background:#0a1931;color:#e8d5a3;font-family:'Amiri',serif}
+.header{text-align:center;padding:25px 15px;background:radial-gradient(ellipse at top, rgba(212,175,55,0.15), transparent 70%)}
+.cover{max-width:340px;width:90%;margin:0 auto 20px;border:3px solid #d4af37;border-radius:16px;overflow:hidden;box-shadow:0 0 25px rgba(212,175,55,0.3)}
+.cover img{width:100%;display:block}
+h1{font-family:'Reem Kufi';color:#d4af37;font-size:32px;margin:10px 0 5px}
+.subtitle{color:#8a9bb8;font-size:14px}
+.line{width:70px;height:3px;background:#d4af37;margin:15px auto;border-radius:2px}
+.container{max-width:520px;margin:0 auto;padding:15px 20px 40px}
+.chapter{display:flex;justify-content:space-between;align-items:center;width:100%;padding:16px 20px;margin-bottom:12px;background:rgba(255,255,255,0.03);border:1.2px solid rgba(212,175,55,0.35);border-radius:12px;color:#f0e6c8;text-decoration:none;transition:0.2s}
+.chapter:hover{background:rgba(212,175,55,0.12);border-color:#d4af37;transform:translateY(-2px)}
+.chapter span{color:#d4af37;font-family:'Reem Kufi';font-weight:700}
+.back-btn{display:block;width:fit-content;margin:30px auto 0;padding:10px 28px;border:1px solid #d4af37;border-radius:25px;color:#d4af37;text-decoration:none}
 </style>
 </head>
 <body>
 <div class="header">
-<h1>خربشات على جدران الذاكرة</h1>
-<p>وسيم عقيل</p>
+<div class="cover"><img src="cover_kharbashaat.jpg"></div>
+<h1>خربشات</h1>
 <div class="line"></div>
+<p class="subtitle">خواطر - وسيم عقيل</p>
 </div>
+
 <div class="container">
-<a class="card" href="rafeeqat-aldarb.html">
-<h3>رفيقة الدرب</h3>
-<p>وَرْدَةٌ بَنَفْسَجِيَّةٌ عَلَى سَفَرِ الشِّفَاهِ النَّائِمَةِ...</p>
-</a>
+<a href="ha-ana-afshal.html" class="chapter"><span>01</span> ها أنا أفشل</a>
+<a href="rafeeqat-aldarb.html" class="chapter"><span>02</span> رفيقة الدرب</a>
 
-<a class="card" href="ha-ana-afshal.html">
-<h3>ها أنا أفشل في الحب مجدداً</h3>
-<p>يُخَيَّلُ إِلَيَّ أَنَّ فِي دَاخِلِي رِجَالًا كُثُرًا...</p>
-</a>
-
-<div class="back">
-<a href="../index.html">← العودة للرئيسية</a>
-</div>
+<a href="../index.html" class="back-btn">← العودة للمكتبة</a>
 </div>
 </body>
 </html>
