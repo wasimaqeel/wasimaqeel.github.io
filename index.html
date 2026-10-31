@@ -11,7 +11,7 @@ body{background:#0a1931;color:#e8d5a3;font-family:'Amiri',serif;min-height:100vh
 .hero{text-align:center;padding:40px 20px 15px}
 .hero img{width:130px;height:130px;border-radius:50%;border:3px solid #d4af37;object-fit:cover;box-shadow:0 0 25px rgba(212,175,55,0.3)}
 .hero h1{font-family:'Reem Kufi';color:#d4af37;font-size:34px;margin:14px 0 5px}
-.hero p{color:#8a9bb8;font-size:16px}
+.hero p{color:#8a9bb8;font-size:16px;line-height:1.6}
 .library{max-width:800px;margin:15px auto;padding:20px;display:grid;grid-template-columns:1fr 1fr;gap:18px}
 .book{background:linear-gradient(145deg, rgba(255,255,255,0.07), rgba(255,255,255,0.03));border:1.5px solid rgba(212,175,55,0.4);border-radius:16px;padding:22px 18px;text-align:center;transition:0.3s}
 .book:hover{border-color:#d4af37;transform:translateY(-4px);box-shadow:0 10px 30px rgba(212,175,55,0.15)}
@@ -20,6 +20,10 @@ body{background:#0a1931;color:#e8d5a3;font-family:'Amiri',serif;min-height:100vh
 .book p{color:#8a9bb8;font-size:13px;margin-bottom:14px}
 .book a{display:inline-block;padding:9px 20px;border:1.5px solid #d4af37;border-radius:10px;color:#d4af37;text-decoration:none;font-weight:700;font-size:14px;transition:0.3s}
 .book a:hover{background:#d4af37;color:#0a1931}
+.cta{max-width:800px;margin:10px auto 30px;padding:0 20px}
+.cta-box{text-align:center;padding:20px;background:rgba(37,211,102,0.08);border:1px solid #25D366;border-radius:14px}
+.cta-box a{display:inline-block;margin-top:10px;text-decoration:none;background:#25D366;color:white;padding:12px 26px;border-radius:25px;font-family:'Reem Kufi';font-weight:700}
+.cta-box small{display:block;margin-top:8px;color:#8a9bb8;font-size:12px}
 @media(max-width:600px){.library{grid-template-columns:1fr}}
 </style>
 </head>
@@ -27,14 +31,15 @@ body{background:#0a1931;color:#e8d5a3;font-family:'Amiri',serif;min-height:100vh
 <div class="hero">
 <img src="Wassili.jpg" onerror="this.src='https://via.placeholder.com/130?text=W'">
 <h1>مكتبة وسيم عقيل</h1>
-<p>كاتب وروائي سوري</p>
+<p>كاتب وروائي سوري من درعا - انسبروك<br>3 روايات وديوانان - للقراءة مجاناً</p>
 </div>
+
 <div class="library">
 
 <div class="book">
 <img class="cover" src="dawa-qalbi/cover-dawa-qalbi.jpg">
 <h3>دعوا قلبي</h3>
-<p>رواية </p>
+<p>رواية - من درعا إلى برلين</p>
 <a href="dawa-qalbi/">اقرأ الآن</a>
 </div>
 
@@ -51,18 +56,30 @@ body{background:#0a1931;color:#e8d5a3;font-family:'Amiri',serif;min-height:100vh
 <p>رواية - 10 فصول</p>
 <a href="ana-wal-ankaboot/">اقرأ الآن</a>
 </div>
+
 <div class="book">
 <img class="cover" src="indama-tabki-al-yamama/cover.jpg">
 <h3>عندما تبكي اليمامة</h3>
 <p>ديوان شعري</p>
 <a href="indama-tabki-al-yamama/">اقرأ الآن</a>
 </div>
+
 <div class="book">
 <img class="cover" src="kharbashat/cover_kharbashaat.jpg">
 <h3>خربشات على جدران الذاكرة</h3>
 <p>نصوص أدبية - 26 نص</p>
 <a href="kharbashat/">اقرأ الآن</a>
 </div>
+
 </div>
+
+<div class="cta">
+<div class="cta-box">
+<p>عجبك شي؟ احكيلي رأيك - أنا أرد بنفسي</p>
+<a href="https://wa.me/4367761698193?text=مرحبا%20وسيم%20دخلت%20مكتبتك%20wasimaqeel.github.io%20وقرأت" target="_blank">💬 واتساب - 67761698193</a>
+<small>كل كتبي مجانية - بس كلمة منك بتفرق</small>
+</div>
+</div>
+
 </body>
 </html>
