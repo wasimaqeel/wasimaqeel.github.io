@@ -20,6 +20,12 @@ body{background:#0a1931;color:#e8d5a3;font-family:'Amiri',serif;min-height:100vh
 .btn{display:block;text-align:center;padding:12px;border:1.5px solid #d4af37;border-radius:10px;color:#d4af37;text-decoration:none;font-weight:700;font-family:'Reem Kufi';transition:0.3s}
 .btn:hover{background:#d4af37;color:#0a1931}
 .btn.primary{background:#d4af37;color:#0a1931}
+.chapters-list{margin-top:20px;display:grid;gap:12px}
+.chapter-link{display:flex;align-items:center;justify-content:space-between;padding:14px 18px;background:linear-gradient(145deg, rgba(212,175,55,0.15), rgba(212,175,55,0.05));border:1.5px solid #d4af37;border-radius:10px;color:#e8d5a3;text-decoration:none;font-family:'Reem Kufi';transition:0.3s}
+.chapter-link:hover{background:#d4af37;color:#0a1931;transform:translateX(-4px)}
+.chapter-num{background:#0a1931;color:#d4af37;width:32px;height:32px;border-radius:50%;display:flex;align-items:center;justify-content:center;font-size:14px;font-weight:700;border:1px solid #d4af37}
+.chapter-title{flex:1;margin:0 15px;font-size:16px}
+.chapter-arrow{font-size:18px}
 .back{text-align:center;margin-top:25px}
 .back a{color:#8a9bb8;text-decoration:none;font-size:14px}
 </style>
@@ -54,13 +60,20 @@ body{background:#0a1931;color:#e8d5a3;font-family:'Amiri',serif;min-height:100vh
 
 <div class="btns">
 <a class="btn primary" href="chapter-01.html">📖 الفصل الأول: ملاك</a>
-<a class="btn" href="../">🏠 العودة للمكتبة</a>
 </div>
+
+<div class="chapters-list">
 <a href="chapter-02.html" class="chapter-link">
   <span class="chapter-num">02</span>
   <span class="chapter-title">الفصل الثاني: الباب</span>
   <span class="chapter-arrow">←</span>
 </a>
+</div>
+
+<div class="btns" style="margin-top:15px">
+<a class="btn" href="../">🏠 العودة للمكتبة</a>
+</div>
+
 <div class="back"><a href="https://wasimaqeel.github.io">wasimaqeel.github.io</a></div>
 </div>
 </body>
